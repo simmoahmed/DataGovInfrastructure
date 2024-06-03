@@ -96,3 +96,5 @@ services:
     image: apache/nifi:latest
     ports:
       - "8443:8443"
+    volumes:
+      - D:\atlas_v2\docker-atlas\shared_volume:/opt/nifi/nifi-current/files
